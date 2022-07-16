@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.0.1
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: true
+
+      - name: Test
+        run: pnpm test
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.0.1
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: true
+
+      - name: Lint
+        run: pnpm lint

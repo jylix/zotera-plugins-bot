@@ -17,4 +17,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE) © 2022 Lucas Nørgård
-```
+
