@@ -8,8 +8,6 @@ pnpm install
 pnpm start
 ```
 
-```
-
 ## Contributing
 
 If you have suggestions for how zotera-plugins-bot could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
