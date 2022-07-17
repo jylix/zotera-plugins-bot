@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@luxass/eslint-config': ^1.0.3
+  '@luxass/eslint-config': ^1.0.4
   '@luxass/prettier-config': ^1.0.4
   '@types/node': ^18.0.0
   esbuild: ^0.14.49
@@ -17,7 +17,7 @@ dependencies:
   probot: 12.2.5
 
 devDependencies:
-  '@luxass/eslint-config': 1.0.3_4x5o4skxv6sl53vpwefgt23khm
+  '@luxass/eslint-config': 1.0.4_4x5o4skxv6sl53vpwefgt23khm
   '@luxass/prettier-config': 1.0.4_prettier@2.7.1
   '@types/node': 18.0.5
   esbuild: 0.14.49
@@ -422,10 +422,10 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@luxass/eslint-config/1.0.3_4x5o4skxv6sl53vpwefgt23khm:
+  /@luxass/eslint-config/1.0.4_4x5o4skxv6sl53vpwefgt23khm:
     resolution:
       {
-        integrity: sha512-QKtgykPpwkWpwowKAnruTsGaFmXoKQ8m817CDxuIrOhTA5JHugfkFTTHXiWExK7GFY7y5lvforN1h5dRnohA3g==
+        integrity: sha512-FL1xQaEz47uo0MkPp6Fzde3NwXNatWn6SAhy0k+G9IKXnPeE8G70Mv59oUAi2I5g9cspiY+gZ/8EBknixaB3qg==
       }
     peerDependencies:
       eslint: ^8.16.0

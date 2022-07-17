@@ -24,7 +24,7 @@
     "probot": "^12.2.4"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^1.0.3",
+    "@luxass/eslint-config": "^1.0.4",
     "@luxass/prettier-config": "^1.0.4",
     "@types/node": "^18.0.0",
     "esbuild": "^0.14.49",

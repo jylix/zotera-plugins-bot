@@ -8,8 +8,6 @@ default_permissions:
   metadata: read
   pull_requests: write
 
-
-
 name: Zotera Community Plugin Manager
 url: https://zotera.luxass.dev/
 description: A GitHub bot for managing Zotera Community Plugins
